@@ -15,12 +15,28 @@ import java.util.List;
 public final class Data {
 
     public static final String[] sampleUrls = new String[]{
-            "http://speedtest.ftp.otenet.gr/files/test100Mb.db",
-            "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.avi",
-            "http://media.mongodb.org/zips.json",
-            "http://www.exampletonyotest/some/unknown/123/Errorlink.txt",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/687px-Android_logo_2019.svg.png",
-            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"};
+            "https://mirror.math.princeton.edu/pub/ubuntu-iso/22.04/ubuntu-22.04.1-desktop-amd64.iso",
+            "https://speedtest-ca.turnkeyinternet.net/10000mb.bin",
+            "https://speedtest-ca.turnkeyinternet.net/1000mb.bin",
+            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"};
+
+
+//    public static final String[] sampleUrls = new String[]{
+//            "http://speedtest.ftp.otenet.gr/files/test100Mb.db",
+//            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+//            "https://mirror.arizona.edu/ubuntu-releases/22.04/ubuntu-22.04.1-desktop-amd64.iso",
+//            "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.avi"};
+
+//    public static final String[] sampleUrls = new String[]{
+//            "http://speedtest.ftp.otenet.gr/files/test100Mb.db",
+//            "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+//            "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_720p_stereo.avi",
+//            "http://media.mongodb.org/zips.json",
+//            "http://www.exampletonyotest/some/unknown/123/Errorlink.txt",
+//            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/687px-Android_logo_2019.svg.png"};
 
     private Data() {
 

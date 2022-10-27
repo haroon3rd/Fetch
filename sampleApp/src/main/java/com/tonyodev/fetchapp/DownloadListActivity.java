@@ -50,7 +50,7 @@ public class DownloadListActivity extends AppCompatActivity implements ActionLis
         setContentView(R.layout.activity_download_list);
         setUpViews();
         final FetchConfiguration fetchConfiguration = new FetchConfiguration.Builder(this)
-                .setDownloadConcurrentLimit(4)
+                .setDownloadConcurrentLimit(10)
                 .setHttpDownloader(new OkHttpDownloader(Downloader.FileDownloaderType.PARALLEL))
                 .setNamespace(FETCH_NAMESPACE)
                 .build();

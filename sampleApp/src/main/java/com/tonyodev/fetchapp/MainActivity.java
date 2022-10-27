@@ -42,25 +42,25 @@ public class MainActivity extends AppCompatActivity {
             MainActivity.this.startActivity(intent);
         });
 
-        findViewById(R.id.gameFilesButton).setOnClickListener(v -> {
-            final Intent intent = new Intent(MainActivity.this, GameFilesActivity.class);
-            MainActivity.this.startActivity(intent);
-        });
-
-        findViewById(R.id.multiEnqueueButton).setOnClickListener(v -> {
-            final Intent intent = new Intent(MainActivity.this, FailedMultiEnqueueActivity.class);
-            MainActivity.this.startActivity(intent);
-        });
-
-        findViewById(R.id.multiFragmentButton).setOnClickListener(v -> {
-            final Intent intent = new Intent(MainActivity.this, FragmentActivity.class);
-            MainActivity.this.startActivity(intent);
-        });
-
-        findViewById(R.id.fileServerButton).setOnClickListener(v -> {
-            final Intent intent = new Intent(MainActivity.this, FileServerActivity.class);
-            MainActivity.this.startActivity(intent);
-        });
+//        findViewById(R.id.gameFilesButton).setOnClickListener(v -> {
+//            final Intent intent = new Intent(MainActivity.this, GameFilesActivity.class);
+//            MainActivity.this.startActivity(intent);
+//        });
+//
+//        findViewById(R.id.multiEnqueueButton).setOnClickListener(v -> {
+//            final Intent intent = new Intent(MainActivity.this, FailedMultiEnqueueActivity.class);
+//            MainActivity.this.startActivity(intent);
+//        });
+//
+//        findViewById(R.id.multiFragmentButton).setOnClickListener(v -> {
+//            final Intent intent = new Intent(MainActivity.this, FragmentActivity.class);
+//            MainActivity.this.startActivity(intent);
+//        });
+//
+//        findViewById(R.id.fileServerButton).setOnClickListener(v -> {
+//            final Intent intent = new Intent(MainActivity.this, FileServerActivity.class);
+//            MainActivity.this.startActivity(intent);
+//        });
 
         findViewById(R.id.deleteAllButton).setOnClickListener(v -> {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {

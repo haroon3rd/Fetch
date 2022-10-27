@@ -27,33 +27,33 @@
             android:layout_marginBottom="20dp"
             android:text="@string/download_list_demo" />
 
-        <Button
-            android:id="@+id/gameFilesButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/game_file_download_demo" />
+<!--        <Button-->
+<!--            android:id="@+id/gameFilesButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="@string/game_file_download_demo" />-->
 
-        <Button
-            android:id="@+id/multiEnqueueButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/failed_multi_enqueue" />
+<!--        <Button-->
+<!--            android:id="@+id/multiEnqueueButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="@string/failed_multi_enqueue" />-->
 
-        <Button
-            android:id="@+id/multiFragmentButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/multi_fragment" />
+<!--        <Button-->
+<!--            android:id="@+id/multiFragmentButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="@string/multi_fragment" />-->
 
-        <Button
-            android:id="@+id/fileServerButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="@string/file_server" />
+<!--        <Button-->
+<!--            android:id="@+id/fileServerButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="@string/file_server" />-->
 
         <Button
             android:id="@+id/deleteAllButton"
